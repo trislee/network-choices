@@ -144,7 +144,7 @@
         // radiusScale for threshold 0: 0.015
 
         // Load data from external JSON file
-        d3.json(`../full_network_data.json`).then(function (data) {
+        d3.json(`full_network_data.json`).then(function (data) {
             var allNodes = data.allNodes.map((list, i) => ({
                 id: i,
                 label: list[0],
